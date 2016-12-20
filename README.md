@@ -57,6 +57,7 @@ Get-Content C:\dev\gsp\vishal.txt
 Clear-Host
 cat C:\dev\gsp\vishal.txt
 notepad
+set-location -path "folderlocation"
 
 #functions
 function Add-Numbers
@@ -65,3 +66,4 @@ function Add-Numbers
 }
 
 Add-Numbers 1 10
+
