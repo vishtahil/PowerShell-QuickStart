@@ -57,3 +57,11 @@ Get-Content C:\dev\gsp\vishal.txt
 Clear-Host
 cat C:\dev\gsp\vishal.txt
 notepad
+
+#functions
+function Add-Numbers
+{
+ $args[0] + $args[1]
+}
+
+Add-Numbers 1 10
